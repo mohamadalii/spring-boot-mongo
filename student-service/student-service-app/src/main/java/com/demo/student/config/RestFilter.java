@@ -30,6 +30,7 @@ public class RestFilter implements javax.servlet.Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         response.setHeader("Access-Control-Max-Age", "3600");
         filterChain.doFilter(servletRequest, servletResponse);
+        //hhh
     }
 
     @Override
